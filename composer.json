@@ -1,6 +1,7 @@
 {
   "name": "webpacks/blog",
   "description": "A simple blog package for Laravel",
+  "version": "1.0.0",
   "license": "MIT",
   "require": {
     "php": "^8.2",
