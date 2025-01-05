@@ -1,8 +1,20 @@
 {
   "name": "webpacks/blog",
+  "description": "A simple blog package for Laravel",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^11.0"
+  },
   "autoload": {
     "psr-4": {
       "Webpacks\\Blog\\": "src/"
     }
-  }
+  },
+  "authors": [
+    {
+      "name": "Ramsheed",
+      "email": "chatwith@ramsheed.com"
+    }
+  ]
 }
