@@ -1,0 +1,8 @@
+{
+  "name": "webpacks/blog",
+  "autoload": {
+    "psr-4": {
+      "webpacks\\Blog\\": "src/"
+    }
+  }
+}
