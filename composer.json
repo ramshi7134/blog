@@ -17,5 +17,12 @@
       "name": "Ramsheed",
       "email": "chatwith@ramsheed.com"
     }
-  ]
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Webpacks\\Blog\\Providers\\BlogServiceProvider"
+      ]
+    }
+  }
 }
