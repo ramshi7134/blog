@@ -1,6 +1,6 @@
 <?php
 
-namespace Webpacks\Blog;
+namespace Webpacks\Blog\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
