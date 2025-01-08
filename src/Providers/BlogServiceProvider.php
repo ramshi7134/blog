@@ -17,6 +17,9 @@ class BlogServiceProvider extends ServiceProvider
         // Load migrations
         $this->loadMigrationsFrom(__DIR__ . '/../Database/Migrations');
 
+        // Load package translations
+        $this->loadTranslationsFrom(__DIR__ . '/../resources/lang', 'blog');
+
         // Publish config
         $this->publishes([
             __DIR__ . '/../config/blog.php' => config_path('blog.php'),
